@@ -51,7 +51,7 @@ python3 -V > runtime.txt
 
 Crear el archivo **.gitinore** para inidica las carpetasy archivos que no se van a sincronizar con el repositorio.
 
-`````shell
+````shell
 
 *.pyc
 _pycache__/
@@ -62,7 +62,7 @@ _pycache__/
 
 Indexar las carpetas y archivos creados o modificados.
 
-`````shell
+````shell
 
 git add .
 ````
